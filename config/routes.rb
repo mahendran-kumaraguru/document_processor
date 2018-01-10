@@ -1,4 +1,5 @@
 DocumentProcessor::Application.routes.draw do
+  post "capitalize" => "processor#capitalize"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
